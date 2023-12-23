@@ -13,6 +13,12 @@ html{
 	display: flex;
 }
 
+#startBtn:active span {
+	transform: translateY(0px);
+	text-shadow: 0px -200px 5px white;
+	transition: 2s;
+    }
+    
 
 #startBtn{
 	display: flex;
@@ -35,12 +41,12 @@ html{
 	
 }
 
+
 #btnBox{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid red;
 	width: 40%;
 	height: 100%;
 		overflow: hidden;
@@ -51,6 +57,7 @@ html{
 
 #startBtn:active{
 	transform: translateY(4px);
+	
 }
 
 #btnBox div{
