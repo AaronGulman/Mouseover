@@ -70,3 +70,19 @@ html{
 	
 		
 }
+
+
+.div{
+	background-color: blue;
+	z-index: 5;
+	width:15%;
+	height:15%;
+	color: white;
+	border-radius: 80%;
+	transform-origin: 0%;
+	transform: translateX(10px);
+	transition: 1s;
+
+	
+}
+
